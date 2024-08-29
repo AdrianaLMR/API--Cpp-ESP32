@@ -1,8 +1,8 @@
 #include <WiFi.h> // Inclui a biblioteca para conectar o ESP32 a redes Wi-Fi.
 
 // Armazena nome e senha da rede Wi-Fi para conectar o ESP32
-const char *ssid = "Internet2.4";  // Nome da rede Wi-Fi (substitua pelo nome da sua rede Wi-Fi)
-const char *password = "Senha2.4"; // Senha da rede Wi-Fi (substitua pela senha da sua rede Wi-Fi)
+const char *ssid = "Nome da rede Wi-Fi";  // Nome da rede Wi-Fi (substitua pelo nome da sua rede Wi-Fi)
+const char *password = "Senha da rede Wi-Fi"; // Senha da rede Wi-Fi (substitua pela senha da sua rede Wi-Fi)
 
 // Inicializa o servidor
 WiFiServer server(80); // Cria um objeto de servidor que escuta na porta 80.
